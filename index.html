@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kalaivani | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">K<span>.</span></a>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section class="hero container" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Kalaivani</span></h1>
+
+            <h2>I'm a <span id="typing-text">Computer Science Student</span></h2>
+
+            <p class="hero-description">
+                A passionate Computer Science student who loves technology,
+                programming, and creating innovative digital solutions.
+                I enjoy learning new skills and turning ideas into reality.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+
+        <div class="profile-card">
+
+            <div class="profile-image">
+                <img src="images/myphoto.jpg"
+                     alt="Kalaivani Profile Photo"
+                     onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';">
+
+                <div id="photo-fallback" class="photo-fallback">
+                    K
+                </div>
+            </div>
+
+            <h2>Kalaivani</h2>
+
+            <p>B.Sc. Computer Science</p>
+
+            <p class="role">Aspiring Software Developer</p>
+
+            <div class="tags">
+                <span>Java</span>
+                <span>Python</span>
+                <span>Web Development</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="section container" id="about">
+
+        <div class="section-heading">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-card">
+
+            <p>
+                Hello! I'm Kalaivani, a B.Sc. Computer Science student
+                passionate about programming, software development,
+                and emerging technologies.
+            </p>
+
+            <p>
+                I enjoy exploring new technologies, solving problems,
+                and developing projects that improve my technical skills.
+                My goal is to become a skilled software developer and
+                contribute to meaningful technology projects.
+            </p>
+
+            <div class="about-details">
+
+                <div>
+                    <strong>Name</strong>
+                    <p>Kalaivani</p>
+                </div>
+
+                <div>
+                    <strong>Degree</strong>
+                    <p>B.Sc. Computer Science</p>
+                </div>
+
+                <div>
+                    <strong>College</strong>
+                    <p>KG College of Arts and Science</p>
+                </div>
+
+                <div>
+                    <strong>Career Goal</strong>
+                    <p>Software Developer</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="section container" id="skills">
+
+        <div class="section-heading">
+            <p class="section-label">WHAT I KNOW</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <h3>Java</h3>
+                <p>Object-oriented programming and problem-solving.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>Programming fundamentals and logical thinking.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Creating structured and accessible web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Designing attractive and responsive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Adding interactions and dynamic features to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>C / C++</h3>
+                <p>Programming basics and computational thinking.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="section container" id="projects">
+
+        <div class="section-heading">
+            <p class="section-label">MY RECENT WORK</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <div class="project-number">PROJECT 01</div>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A responsive personal website developed using
+                    HTML, CSS, and JavaScript to showcase my skills,
+                    projects, and achievements.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">PROJECT 02</div>
+
+                <h3>Women Safety Application</h3>
+
+                <p>
+                    A concept for a women safety application focused
+                    on emergency assistance, safety awareness,
+                    and helping users access support.
+                </p>
+
+                <div class="project-tags">
+                    <span>Android</span>
+                    <span>Firebase</span>
+                    <span>UI Design</span>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">PROJECT 03</div>
+
+                <h3>Healthcare Coordination App</h3>
+
+                <p>
+                    A healthcare application concept designed to
+                    simplify access to healthcare services and
+                    improve coordination between users and providers.
+                </p>
+
+                <div class="project-tags">
+                    <span>App Design</span>
+                    <span>Healthcare</span>
+                    <span>Technology</span>
+                </div>
+
+            </article>
+
+        </div>
+
+        <p class="note">
+            Note: Keep only projects you have actually worked on.
+            Update the descriptions to match your real contributions.
+        </p>
+
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section class="section container" id="certifications">
+
+        <div class="section-heading">
+            <p class="section-label">LEARNING & ACHIEVEMENTS</p>
+            <h2>My <span>Certifications</span></h2>
+        </div>
+
+        <div class="certification-grid">
+
+            <div class="certification-card">
+                <div class="cert-icon">🏆</div>
+                <h3>NPTEL Certification</h3>
+                <p>Cloud Computing and Distributed Systems</p>
+                <span class="cert-status">Elite Silver</span>
+            </div>
+
+            <div class="certification-card">
+                <div class="cert-icon">🌐</div>
+                <h3>Cisco Skillthon</h3>
+                <p>Technical learning and skill development.</p>
+                <span class="cert-status">Completed</span>
+            </div>
+
+            <div class="certification-card">
+                <div class="cert-icon">💻</div>
+                <h3>Online Courses</h3>
+                <p>Technical courses and continuous learning.</p>
+                <span class="cert-status">Learning</span>
+            </div>
+
+        </div>
+
+        <p class="note">
+            Add your exact course names, certificates, and scores.
+            Remove any entry that does not match a certificate you earned.
+        </p>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="section container" id="education">
+
+        <div class="section-heading">
+            <p class="section-label">MY ACADEMIC JOURNEY</p>
+            <h2>My <span>Education</span></h2>
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-dot"></div>
+
+            <div>
+                <span class="education-year">Currently Pursuing</span>
+                <h3>B.Sc. Computer Science</h3>
+                <p>KG College of Arts and Science</p>
+                <p>Developing programming, problem-solving,
+                    and software development skills.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="section container" id="contact">
+
+        <div class="section-heading">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <div class="contact-card">
+
+            <p>
+                I'm interested in learning, collaborating on projects,
+                and exploring opportunities to grow as a developer.
+            </p>
+
+            <div class="contact-links">
+
+                <!-- Replace with your real email address -->
+                <a href="mailto:YOUR_EMAIL@gmail.com" class="contact-btn">
+                    ✉ Email Me
+                </a>
+
+                <!-- Replace YOUR_USERNAME with your GitHub username -->
+                <a href="https://github.com/YOUR_USERNAME"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-btn">
+                    💻 GitHub
+                </a>
+
+                <!-- Replace YOUR_USERNAME with your LinkedIn username -->
+                <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-btn">
+                    🔗 LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">K<span>.</span></a>
+
+            <p>
+                Designed & Built by Kalaivani
+            </p>
+
+            <p>
+                © <span id="year"></span> Kalaivani. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <button id="top-btn" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
